@@ -18,13 +18,13 @@
 
     <?php
 
-function print_array(){
+function print_array($array){
     echo "<pre>";
-    print_r($_GET);
+    print_r($array);
     echo "</pre>";
 }
 
-print_array($_GET);
+print_array($_POST);
 
 // Funktionen isset
 if(isset($_GET['name'])){
@@ -39,7 +39,7 @@ $order= isset($_GET['order']) ? $_GET['order'] : 'ORDERNUMMER SAKNAS';
 echo "<h2>Ditt ordernummer är: $order</h2>";
 
 // Nullförening operator
-$total = $_GET['total'] ?? 0;
+$total = $_GET['total'] ?? 0; // enbart för att slippa en varning
 
 
 
