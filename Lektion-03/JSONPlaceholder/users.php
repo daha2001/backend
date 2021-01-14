@@ -26,14 +26,16 @@ $array = json_decode($json, true);
     //echo "</pre";
 
 // 4. Välj data från arrayen
+echo "<ol>";
 foreach ($array as $key => $value) {
     // echo "key: " . $key; // 0123456789
     // echo '<hr>';
     // echo "value: ";
     // print_r($value); // OBS! $value är arrayer
     // echo '<hr>';
-    echo "Name: " . $value['name'];
+    echo "<li>" . $value['name'] . "<li>";
     echo '<br>';
-
-
 }
+echo "</ol>";
+
+?>
