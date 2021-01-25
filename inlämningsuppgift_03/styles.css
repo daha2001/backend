@@ -1,0 +1,33 @@
+.appearance {
+	width: 400px;
+	height: 400px;
+	padding: 10px;
+    margin: 10px;
+	border: 1px solid gray;
+	float: left;
+}
+
+p {
+	float: right;
+	text-align: left;
+	font-size: 0.7rem;
+}
+
+h6 {
+	text-align: center;
+}
+
+img {
+	float: left;
+	border: 1px solid rgb(169, 178, 182);
+	border-radius: 4px;
+	padding: 5px;
+    width: 200px;
+    height: 200px;
+}
+
+div-start {
+	columns: 3;
+	text-align: center;
+}
+

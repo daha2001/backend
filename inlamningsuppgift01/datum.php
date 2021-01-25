@@ -13,3 +13,4 @@ $tid = date('H:i');
 echo "Vecka $vecka - " . $veckodag[date('w')] . " den " . $dag . " " . $manad[date('n')-1] . " " . $ar . " kl. " . $tid;
 
 ?>
+
