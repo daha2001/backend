@@ -123,7 +123,7 @@ include_once 'app.php'
         </section>
         <!-- Copyright Section-->
         <div class="copyright py-4 text-center text-white">
-            <div class="container"><small>Daniel Håkansson \ Marcus Ljungqvist | Copyright © Your Website 2020</small></div>
+            <div class="container"><small>Daniel Håkansson \ Marcus Ljungqvist | Copyright © Your Website 2021</small></div>
         </div>
         <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes)-->
         <div class="scroll-to-top d-lg-none position-fixed">

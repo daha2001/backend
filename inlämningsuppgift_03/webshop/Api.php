@@ -12,4 +12,4 @@ for ($i=0; $i < 10 ; $i++) {
     
 }
 
-echo json_encode($products,JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT);
+echo json_encode($products,JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES );

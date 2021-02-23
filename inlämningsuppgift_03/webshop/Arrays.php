@@ -28,29 +28,29 @@ $descriptions = array(
 );
 
 $images = array(
-    0 => "http://localhost/TestAPI/bilder/bil.jpg",  
-    1 => "http://localhost/TestAPI/bilder/lynchburg-lemonade2.jpg",
-    2 => "http://localhost/TestAPI/bilder/sovuggla.jpg",   
-    3 => "http://localhost/TestAPI/bilder/frangelico_bottle.jpg",
-    4 => "http://localhost/TestAPI/bilder/mugg.jpg",
-    5 => "http://localhost/TestAPI/bilder/Driver.jpg",
-    6 => "http://localhost/TestAPI/bilder/georg.jpg",
-    7 => "http://localhost/TestAPI/bilder/bil2.jpg",
-    8 => "http://localhost/TestAPI/bilder/passatjävel.jpg",
-    9 => "http://localhost/TestAPI/bilder/dragon-lore.jpg"
+    0 => "bilder/bil.jpg",  
+    1 => "bilder/lynchburg-lemonade2.jpg",
+    2 => "bilder/sovuggla.jpg",   
+    3 => "bilder/frangelico_bottle.jpg",
+    4 => "bilder/mugg.jpg",
+    5 => "bilder/Driver.jpg",
+    6 => "bilder/georg.jpg",
+    7 => "bilder/bil2.jpg",
+    8 => "bilder/passatjävel.jpg",
+    9 => "bilder/dragon-lore.jpg"
 );
 
 
 $prices = array(
-    0 => "56 000",
-    1 => "79",
+    0 => 56000,
+    1 => 79,
     2 => "Paraply på köpet",
-    3 => "139",
-    4 => "10",
-    5 => "20",
-    6 => "35",
-    7 => "65 000",
+    3 => 139,
+    4 => 10,
+    5 => 20,
+    6 => 35,
+    7 => 65000,
     8 => "10 000 kr och stänkskydd till din cykel (vilket du kommer behöva)",
-    9 => "7500"
+    9 => 7500
 );
 

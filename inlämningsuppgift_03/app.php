@@ -4,13 +4,7 @@ $endpoint = "http://localhost/inl%c3%a4mningsuppgift_03/webshop/Api.php";
 
 $json = file_get_contents($endpoint);
 
-
-
 $products = json_decode($json, true);
-
-
-
-
 
 function product_1($array)
 {
